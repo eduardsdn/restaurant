@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'HIROMISAKE';
+    src: url('./assets/fonts/HIROMISAKE.woff') format('woff');
+    font-style: normal;
+}
+
+
+
+.test{
+    color: red;
+    font-family: 'HIROMISAKE';
+}
