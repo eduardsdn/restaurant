@@ -119,3 +119,84 @@ body{
     width: 24px;
     height: 24px;
 }
+
+/* HOME MAIN STYLING */
+.main{
+    padding-top: 60px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.main .title{
+    font-family: 'HIROMISAKE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120%;
+    color: #333F72;
+    text-align: center;
+}
+
+.main .descriprion{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #333F72;
+    width:620px;
+    height:auto;
+    text-align: center;
+}
+
+.main .orderBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 200px;
+    height: 60px;
+    background: #E56E0C;
+    border-radius: 24px 0px;
+    border-style: inherit;
+    font-family: 'HIROMISAKE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF
+}
+
+.main .orderBtn:hover{
+    background-color: #333F72;
+}
+
+.main-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+}
+
+.main-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:60px;
+}
+
+.backgroundImg1{
+    position: absolute;
+    left: 0px;
+}
+
+.backgroundImg2{
+    position: absolute;
+    right: 0px;
+}
+
