@@ -1,6 +1,7 @@
 # restaurant practice project using webpack for the first time
 
-Design author: @Nickelfox Design
+Design author: Nickelfox Design
+https://www.nickelfox.com/
 https://www.figma.com/community/file/1200799657217214030
 
 Fonts: HIRO MISAKE 
