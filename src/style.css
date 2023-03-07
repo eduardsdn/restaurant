@@ -221,13 +221,13 @@ body{
     align-self: center;
 }
 
-.menuTiemCards{
+.menuItemCards{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
 }
 
-.menuTiemCard{
+.menuItemCard{
     width: 400px;
     height: 500px;
     display: flex;
@@ -241,7 +241,7 @@ body{
     /* border-style: inherit; */
 }
 
-.menuTiemCard .cardOrderBtn{
+.menuItemCard .cardOrderBtn{
     width: 242px;
     height: 60px;
     border: 1px solid #E56E0C;
@@ -252,19 +252,19 @@ body{
     background-color: inherit;
 }
 
-.menuTiemCard .cardOrderBtn:hover{
+.menuItemCard .cardOrderBtn:hover{
     background-color:#333F72;
     cursor: pointer;
 }
 
-.menuTiemCard .menuItemName{
+.menuItemCard .menuItemName{
     font-family: 'HIROMISAKE';
     font-style: normal;
     font-size: 32px;
     color: #333F72;
 }
 
-.menuTiemCard .description{
+.menuItemCard .description{
     text-align: center;
     font-family: "SATOSHI";
     width: 80%;
