@@ -202,3 +202,73 @@ body{
     right: 0px;
 }
 
+/* MENU STYLING */
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    gap:60px;
+}
+
+.menu .title{
+    font-family: 'HIROMISAKE';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333F72;
+    align-self: center;
+}
+
+.menuTiemCards{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.menuTiemCard{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:20px;
+    border: solid;
+    border-radius: 40px 0px;
+    border-width: 1px;
+    /* border-style: inherit; */
+}
+
+.menuTiemCard .cardOrderBtn{
+    width: 242px;
+    height: 60px;
+    border: 1px solid #E56E0C;
+    border-radius: 24px 0px;
+    color: #E56E0C;
+    font-family: 'HIROMISAKE';
+    font-size: 20px;
+    background-color: inherit;
+}
+
+.menuTiemCard .cardOrderBtn:hover{
+    background-color:#333F72;
+    cursor: pointer;
+}
+
+.menuTiemCard .menuItemName{
+    font-family: 'HIROMISAKE';
+    font-style: normal;
+    font-size: 32px;
+    color: #333F72;
+}
+
+.menuTiemCard .description{
+    text-align: center;
+    font-family: "SATOSHI";
+    width: 80%;
+}
+
+
+
