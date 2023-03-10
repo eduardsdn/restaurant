@@ -352,15 +352,15 @@ body{
 #three{
     position: relative;
     left:400px;
-    top:-160px;
+    top: 100px;
     
 }
 
 #three .dialog{
     position:relative;
-    top:140px;
-    left:-360px;
+    left:-340px;
 }
+
 
 
 
