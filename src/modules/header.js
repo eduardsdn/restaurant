@@ -8,10 +8,11 @@ function createHeader(){
 
     const links = document.createElement("ul")
     links.classList.add("links")
-    const linksNamesArr = ["Home","Menu","About","Contact"]
+    const linksNamesArr = ["Home","Menu","About","Contacts"]
     for(let i = 0; i < linksNamesArr.length; i++){
         const link = document.createElement("a")
         link.textContent = linksNamesArr[i]
+        link.classList.add(linksNamesArr[i])
         links.appendChild(link)
     }
 
