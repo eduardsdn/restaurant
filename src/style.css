@@ -361,6 +361,36 @@ body{
     left:-340px;
 }
 
+/* CONTACT STYLING */
+
+.contacts{
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Satoshi';
+    color: #333F72;
+    gap:30px;
+}
+
+.reservations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.here{
+    text-decoration: none;
+    color:#E56E0C;
+}
+
 
 
 

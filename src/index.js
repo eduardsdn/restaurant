@@ -9,11 +9,11 @@ import createAbout from "./modules/about.js"
 
 const content = document.querySelector(".content")
 
-content.appendChild(createHeader())
+// content.appendChild(createHeader())
 
 
 
-content.appendChild(createHome())
+// content.appendChild(createHome())
 
 
 
