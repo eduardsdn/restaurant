@@ -1,4 +1,4 @@
-# restaurant practice project using webpack for the first time
+# restaurant practice project using webpack 
 
 Design author: Nickelfox Design
 https://www.nickelfox.com/
